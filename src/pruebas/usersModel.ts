@@ -1,9 +1,9 @@
-export interface RandomModel1 {
+export interface IUser {
     id: number;
     name: string;
 }
 
-export const randomModelList: Array<RandomModel1> = [
+export const UsersList: Array<IUser> = [
     {
         id: 1,
         name: "pepe",

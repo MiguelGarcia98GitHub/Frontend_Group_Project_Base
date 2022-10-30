@@ -1,12 +1,12 @@
+import { IUser } from "./usersModel";
 import { createContext } from "react";
-import { RandomModel1 } from "./randomModel";
 
 const initialContext: {
-    list: Array<RandomModel1>;
+    users: Array<IUser>;
     handleAdd: (data: { id: number; name: string }) => void;
 } = {
-    list: [],
+    users: [],
     handleAdd: () => undefined,
 };
 
-export const RandomContext = createContext(initialContext);
+export const UserContext = createContext(initialContext);

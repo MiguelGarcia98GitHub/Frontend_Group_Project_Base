@@ -1,25 +1,23 @@
-import { RandomModel1, randomModelList } from "./randomModel";
 import { useState } from "react";
-import { RandomContext } from "./context1";
+import { UserContext } from "./context1";
+import { IUser, UsersList } from "./usersModel";
 
-export function RandomContextProvider({ children }: { children: any }) {
-    const initialRandoms = randomModelList;
-    const [randoms, setRandoms] = useState(initialRandoms);
+export function UserContextProvider({ children }: { children: JSX.Element }) {
+    const initialUsers = UsersList;
+    const [users, setUsers] = useState(initialUsers);
 
-    const handleAdd = (data: RandomModel1) => {
-        let newState = [...randoms];
+    const handleAdd = (data: IUser) => {
+        let newState = [...users];
         newState.push(data);
-        setRandoms(newState);
+        setUsers(newState);
     };
 
     const context = {
-        list: randoms,
+        users,
         handleAdd,
     };
 
     return (
-        <RandomContext.Provider value={context}>
-            {children}
-        </RandomContext.Provider>
+        <UserContext.Provider value={context}>{children}</UserContext.Provider>
     );
 }

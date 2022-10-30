@@ -1,13 +1,13 @@
 import { useContext } from "react";
-import { RandomContext } from "./context1";
+import { UserContext } from "./context1";
 
 export function TestProviderButton() {
-    const { handleAdd } = useContext(RandomContext);
+    const { handleAdd } = useContext(UserContext);
 
     return (
         <button
             onClick={() => {
-                handleAdd({ id: 100, name: "Random" });
+                handleAdd({ id: 100, name: "randomuser" });
             }}
         >
             TEST USECONTEXT WITH PROVIDER BY ADDING SOME VALUE TO THE GLOBAL
