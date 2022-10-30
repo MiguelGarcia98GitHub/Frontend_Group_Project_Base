@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1667146980869" clover="3.2.0">
+  <project timestamp="1667146980870" name="All files">
+    <metrics statements="43" coveredstatements="19" conditionals="8" coveredconditionals="2" methods="13" coveredmethods="4" elements="64" coveredelements="25" complexity="0" loc="43" ncloc="43" packages="2" files="5" classes="5"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="App.tsx" path="C:\Users\Acc1\Desktop\ISDI\Bootcamp\PROYECTO GRUPAL FRONTEND\src\App.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="C:\Users\Acc1\Desktop\ISDI\Bootcamp\PROYECTO GRUPAL FRONTEND\src\index.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.ts" path="C:\Users\Acc1\Desktop\ISDI\Bootcamp\PROYECTO GRUPAL FRONTEND\src\reportWebVitals.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pruebas">
+      <metrics statements="31" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="10" coveredmethods="3"/>
+      <file name="APIFetch.tsx" path="C:\Users\Acc1\Desktop\ISDI\Bootcamp\PROYECTO GRUPAL FRONTEND\src\pruebas\APIFetch.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="FilterInputTextData.tsx" path="C:\Users\Acc1\Desktop\ISDI\Bootcamp\PROYECTO GRUPAL FRONTEND\src\pruebas\FilterInputTextData.tsx">
+        <metrics statements="19" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
