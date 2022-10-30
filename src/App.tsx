@@ -1,6 +1,6 @@
 import { FilterInputTextData } from "./pruebas/FilterInputTextData";
 
-function App({}) {
+function App() {
     return (
         <div className="app">
             {/* <APIFetchComponent /> */}
