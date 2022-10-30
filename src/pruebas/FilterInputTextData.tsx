@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export const FilterInputTextData = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [inputTextValue, setInputTextValue] = useState("potato");
     let listOfIngredients = "pate de pato, sopa, arroz, sal, tomate"; // LO QUE NOS VA A LLEGAR DEL USUARIO
     let arrayOfIngredients = listOfIngredients.split(",");
@@ -83,7 +84,7 @@ export const FilterInputTextData = () => {
         ],
     };
 
-    const newFoodName = "BIG KING";
+    // const newFoodName = "BIG KING";
     newObject.strMeal = exampleFood.meals[0].strMeal;
 
     console.log(newObject); // NUEVO
