@@ -5,7 +5,6 @@ import { IUser } from "./usersModel";
 
 export function UserItem({ item }: { item: IUser }) {
     const { handleAdd } = useContext(UserContext);
-    // const { handleAdd } = useUsers();
 
     return (
         <div>
