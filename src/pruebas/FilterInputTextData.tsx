@@ -87,7 +87,7 @@ export const FilterInputTextData = () => {
     // const newFoodName = "BIG KING";
     newObject.strMeal = exampleFood.meals[0].strMeal;
 
-    console.log(newObject); // NUEVO
+    
 
     return (
         <div>

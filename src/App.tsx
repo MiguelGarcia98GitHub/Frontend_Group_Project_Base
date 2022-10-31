@@ -3,6 +3,10 @@ import { TestProviderButton } from "./pruebas/TestProviderButton";
 import { UserItem } from "./pruebas/user.item";
 
 function App() {
+    const generateRandomNumber = () => {
+        return Math.floor(Math.random() * 1000000);
+    };
+
     return (
         <div className="app">
             <UserContextProvider>
@@ -10,7 +14,12 @@ function App() {
                     HOLAA
                     <TestProviderButton />
                     HELLO
-                    <UserItem item={{ id: 5, name: "Manolo" }} />
+                    <UserItem
+                        item={{
+                            id: generateRandomNumber(),
+                            name: "Manolo",
+                        }}
+                    />
                 </>
             </UserContextProvider>
         </div>
